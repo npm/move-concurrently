@@ -4,9 +4,10 @@ Move files and directories.
 
 ```
 const move = require('move-concurrently')
-move('/path/to/thing', '/new/path/thing'), err => {
-  if (err) throw err
+move('/path/to/thing', '/new/path/thing').then(() => {
   // thing is now moved!
+}).catch(err => {
+  // oh no!
 })
 ```
 
