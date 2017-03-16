@@ -1,9 +1,9 @@
-# @npminc/move
+# move-concurrently
 
 Move files and directories.
 
 ```
-const move = require('@npminc/move')
+const move = require('move-concurrently')
 move('/path/to/thing', '/new/path/thing'), err => {
   if (err) throw err
   // thing is now moved!

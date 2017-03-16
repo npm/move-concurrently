@@ -1,7 +1,7 @@
 {
-  "name": "@npmcorp/move",
+  "name": "move-concurrently",
   "version": "1.0.0",
-  "description": "Move files or directories with rename, falling back to recursive rename/copy on EXDEV errors.",
+  "description": "Move files or directories with rename, falling back to recursive rename/copy on EXDEV errors, with configurable concurrency.",
   "main": "move.js",
   "scripts": {
     "test": "standard && tap --coverage test"
@@ -10,7 +10,7 @@
   "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
   "license": "ISC",
   "dependencies": {
-    "@npmcorp/copy": "^1.0.0",
+    "copy-concurrently": "^1.0.0",
     "aproba": "^1.1.1",
     "fs-write-stream-atomic": "^1.0.8",
     "mkdirp": "^0.5.1",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npm/npmcorp-move.git"
+    "url": "git+https://github.com/npm/move-concurrently.git"
   },
   "bugs": {
-    "url": "https://github.com/npm/npmcorp-move/issues"
+    "url": "https://github.com/npm/move-concurrently/issues"
   },
-  "homepage": "https://www.npmjs.com/package/@npmcorp/move"
+  "homepage": "https://www.npmjs.com/package/move-concurrently"
 }
