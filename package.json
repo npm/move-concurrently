@@ -1,12 +1,12 @@
 {
   "name": "move-concurrently",
   "version": "1.0.0",
-  "description": "Move files or directories with rename, falling back to recursive rename/copy on EXDEV errors, with configurable concurrency.",
+  "description": "Promises of moves of files or directories with rename, falling back to recursive rename/copy on EXDEV errors, with configurable concurrency and win32 junction support.",
   "main": "move.js",
   "scripts": {
     "test": "standard && tap --coverage test"
   },
-  "keywords": [],
+  "keywords": ["move"],
   "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
   "license": "ISC",
   "dependencies": {
